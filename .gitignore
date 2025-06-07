@@ -1,0 +1,20 @@
+# Ignore Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.env
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+
+# Large data files - GloVe is usually too big for GitHub's 100MB limit per file.
+# We will exclude it and provide download instructions in the README.
+data/glove/
+
+# Operating System files
+.DS_Store
+Thumbs.db
